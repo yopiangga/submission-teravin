@@ -16,7 +16,7 @@ export function StepNavigation(props) {
         </div>
         <div
           className={`h-2 rounded-full grow mt-4 ${
-            parseInt(props.step) > 1 ? "bg-green-400" : "bg-transparent"
+            parseInt(props.step) > 1 ? "bg-green-400" : "bg-gray-100"
           }`}
         ></div>
         <div className="item flex flex-col items-center gap-2">
@@ -33,7 +33,7 @@ export function StepNavigation(props) {
         </div>
         <div
           className={`h-2 rounded-full grow mt-4 ${
-            parseInt(props.step) > 2 ? "bg-green-400" : "bg-transparent"
+            parseInt(props.step) > 2 ? "bg-green-400" : "bg-gray-100"
           }`}
         ></div>
         <div className="item flex flex-col items-center gap-2">
@@ -50,7 +50,7 @@ export function StepNavigation(props) {
         </div>
         <div
           className={`h-2 rounded-full grow mt-4 ${
-            parseInt(props.step) > 3 ? "bg-green-400" : "bg-transparent"
+            parseInt(props.step) > 3 ? "bg-green-400" : "bg-gray-100"
           }`}
         ></div>
         <div className="item flex flex-col items-center gap-2">
